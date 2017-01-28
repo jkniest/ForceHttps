@@ -1,0 +1,16 @@
+{
+    "name": "jkniest/force-https",
+    "description": "Laravel Middleware to force a secure connection",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordan Kniest",
+            "email": "jkniest@gena-clusters.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
