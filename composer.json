@@ -3,7 +3,7 @@
     "description": "Laravel Middleware to force a secure connection",
     "type": "library",
     "require": {
-        "laravel/framework": "^5.*"
+        "laravel/framework": ">5.1"
     },
     "license": "MIT",
     "authors": [
