@@ -1,5 +1,8 @@
 # Force HTTPS Middleware
 
+[![Packagist](https://img.shields.io/packagist/dt/jkniest/force-https.svg)](https://packagist.org/packages/jkniest/force-https)
+
+
 This package only does one thing: Force a connection through _https_! If a user visit the site with an unsecure "http"-Request (example: http://example.com) he will be automatically redirected to a secure route (example: http**s**://example.com)
 
 ---
