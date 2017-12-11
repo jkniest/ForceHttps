@@ -1,10 +1,9 @@
 <?php
 /**
  * Force HTTPS Service Provider
- * PHP version 5
+ * PHP version 5.
  *
  * @category Service Provider
- * @package  jkniest\ForceHttps
  * @author   Jordan Kniest <jkniest@gena-clusters.net>
  * @license  MIT <https://github.com/jkniest/ForceHttps/blob/master/LICENSE>
  * @link     https://jkniest.de
@@ -12,7 +11,6 @@
 
 namespace jkniest\ForceHttps;
 
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -20,7 +18,6 @@ use Illuminate\Support\ServiceProvider;
  * Publish the configuration file!
  *
  * @category Middleware
- * @package  jkniest\ForceHttps
  * @author   Jordan Kniest <jkniest@gena-clusters.net>
  * @license  MIT <https://github.com/jkniest/ForceHttps/blob/master/LICENSE>
  * @link     https://jkniest.de
@@ -35,7 +32,7 @@ class ForceHttpsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/https.php' => config_path('https.php')
+            __DIR__.'/config/https.php' => config_path('https.php'),
         ], 'force-https');
     }
 }
