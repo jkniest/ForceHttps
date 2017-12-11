@@ -1,6 +1,6 @@
 # Force HTTPS Middleware
 
-[![Packagist](https://img.shields.io/packagist/dt/jkniest/force-https.svg)](https://packagist.org/packages/jkniest/force-https)
+[![Latest Stable Version](https://poser.pugx.org/jkniest/force-https/v/stable)](https://packagist.org/packages/jkniest/force-https) [![Total Downloads](https://poser.pugx.org/jkniest/force-https/downloads)](https://packagist.org/packages/jkniest/force-https) [![License](https://poser.pugx.org/jkniest/force-https/license)](https://packagist.org/packages/jkniest/force-https) [![StyleCI](https://styleci.io/repos/80290317/shield?branch=master&style=flat)](https://styleci.io/repos/80290317) 
 
 
 This package only does one thing: Force a connection through _https_! If a user visit the site with an unsecure "http"-Request (example: http://example.com) he will be automatically redirected to a secure route (example: http**s**://example.com)
