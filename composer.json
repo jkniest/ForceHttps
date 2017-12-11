@@ -17,5 +17,11 @@
         "psr-4": {
             "jkniest\\ForceHttps\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jkniest\\ForceHttps\\ForceHttpsServiceProvider"
+            ]
+        }
 }
