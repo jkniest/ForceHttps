@@ -1,10 +1,9 @@
 <?php
 /**
  * Force HTTPS Middleware
- * PHP version 5
+ * PHP version 5.
  *
  * @category Middleware
- * @package  jkniest\ForceHttps
  * @author   Jordan Kniest <jkniest@gena-clusters.net>
  * @license  MIT <https://github.com/jkniest/ForceHttps/blob/master/LICENSE>
  * @link     https://jkniest.de
@@ -20,7 +19,6 @@ use Illuminate\Support\Facades\Redirect;
  * is set to true.
  *
  * @category Middleware
- * @package  jkniest\ForceHttps
  * @author   Jordan Kniest <jkniest@gena-clusters.net>
  * @license  MIT <https://github.com/jkniest/ForceHttps/blob/master/LICENSE>
  * @link     https://jkniest.de
@@ -37,7 +35,7 @@ class ForceHttps
      */
     public function handle($request, Closure $next)
     {
-        if (config('https.force') && !$request->isSecure()) {
+        if (config('https.force') && ! $request->isSecure()) {
             return Redirect::secure($request->path());
         }
 
