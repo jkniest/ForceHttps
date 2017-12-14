@@ -1,3 +1,4 @@
+
 # Force HTTPS Middleware
 
 [![Latest Stable Version](https://poser.pugx.org/jkniest/force-https/v/stable)](https://packagist.org/packages/jkniest/force-https) [![Total Downloads](https://poser.pugx.org/jkniest/force-https/downloads)](https://packagist.org/packages/jkniest/force-https) [![License](https://poser.pugx.org/jkniest/force-https/license)](https://packagist.org/packages/jkniest/force-https) [![StyleCI](https://styleci.io/repos/80290317/shield?branch=master&style=flat)](https://styleci.io/repos/80290317) 
@@ -15,7 +16,7 @@ This package only does one thing: Force a connection through _https_! If a user 
 composer require jkniest/force-https
 ```
 
-2) Open the `config/app.php` file and add the following code to the `providers` array:
+2) If you are using __Laravel 5.4 oder below__, open the `config/app.php` file and add the following code to the `providers` array:
 
 ```php
 jkniest\ForceHttps\ForceHttpsServiceProvider::class,

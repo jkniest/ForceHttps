@@ -24,4 +24,5 @@
                 "jkniest\\ForceHttps\\ForceHttpsServiceProvider"
             ]
         }
+    }
 }
